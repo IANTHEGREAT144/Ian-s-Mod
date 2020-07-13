@@ -1,0 +1,39 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "iansmod:slicedpepperoni"
+    },
+    "1": {
+      "item": "iansmod:slicedpepperoni"
+    },
+    "3": {
+      "item": "iansmod:cheese"
+    },
+    "4": {
+      "item": "iansmod:tomatosause"
+    },
+    "5": {
+      "item": "minecraft:wheat"
+    },
+    "6": {
+      "item": "minecraft:wheat"
+    },
+    "7": {
+      "item": "minecraft:wheat"
+    },
+    "8": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "iansmod:pizzaslice",
+    "count": 1
+  }
+}

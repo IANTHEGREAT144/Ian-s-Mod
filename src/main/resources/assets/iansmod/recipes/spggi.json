@@ -1,0 +1,32 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "iansmod:tomatosause"
+    },
+    "1": {
+      "item": "iansmod:pasta"
+    },
+    "2": {
+      "item": "iansmod:tomatosause"
+    },
+    "3": {
+      "item": "iansmod:pasta"
+    },
+    "4": {
+      "item": "iansmod:pasta"
+    },
+    "5": {
+      "item": "iansmod:pasta"
+    }
+  },
+  "result": {
+    "item": "iansmod:spagetti",
+    "count": 1
+  }
+}

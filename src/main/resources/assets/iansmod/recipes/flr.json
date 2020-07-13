@@ -1,0 +1,19 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:melon"
+    },
+    {
+      "item": "iansmod:coffeebean"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "item": "iansmod:flour",
+    "count": 3
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Pasta"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Pasta"
+      },
+      {
+        "value": "CUSTOM:TomatoSause"
+      },
+      {
+        "value": "CUSTOM:Pasta"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Pasta"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ravioli"
+    },
+    "name": "rvli",
+    "namespace": "mod"
+  }
+}

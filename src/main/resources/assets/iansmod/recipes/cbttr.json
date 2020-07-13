@@ -1,0 +1,17 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dye",
+      "data": 3
+    }
+  },
+  "result": {
+    "item": "iansmod:cbutter",
+    "count": 1
+  }
+}

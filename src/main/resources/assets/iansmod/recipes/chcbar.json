@@ -1,0 +1,20 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 3
+    },
+    {
+      "item": "iansmod:cbutter"
+    }
+  ],
+  "result": {
+    "item": "iansmod:choclatebar",
+    "count": 1
+  }
+}

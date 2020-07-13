@@ -1,0 +1,19 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iansmod:fries"
+    },
+    {
+      "item": "iansmod:fries"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "iansmod:baggedfries",
+    "count": 1
+  }
+}

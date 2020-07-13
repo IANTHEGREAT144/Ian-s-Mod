@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cheese",
+    "customModelName": "Normal",
+    "name": "Cheese",
+    "creativeTab": {
+      "value": "CUSTOM:Ingredients"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 3,
+    "saturation": 0.30000000000000004,
+    "eatingSpeed": 34,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

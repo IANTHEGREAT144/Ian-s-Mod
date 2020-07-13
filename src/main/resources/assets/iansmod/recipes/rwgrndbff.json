@@ -1,0 +1,13 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "result": {
+    "item": "iansmod:rawgroundbeef",
+    "count": 1
+  }
+}

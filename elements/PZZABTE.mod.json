@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 5,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "CUSTOM:SlicedPepperoni"
+      },
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "CUSTOM:TomatoSause"
+      },
+      {
+        "value": "CUSTOM:SlicedPepperoni"
+      },
+      {
+        "value": "CUSTOM:TomatoSause"
+      },
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "CUSTOM:SlicedPepperoni"
+      },
+      {
+        "value": "Items.WHEAT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PizzaBite"
+    },
+    "name": "pzzabte",
+    "namespace": "mod"
+  }
+}

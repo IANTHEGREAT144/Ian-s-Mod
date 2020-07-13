@@ -1,0 +1,27 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "iansmod:flour"
+    },
+    "3": {
+      "item": "iansmod:flour"
+    },
+    "5": {
+      "item": "iansmod:flour"
+    },
+    "7": {
+      "item": "iansmod:flour"
+    }
+  },
+  "result": {
+    "item": "iansmod:shell",
+    "count": 1
+  }
+}

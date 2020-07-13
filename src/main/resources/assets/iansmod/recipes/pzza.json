@@ -1,0 +1,13 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iansmod:pizzapie"
+    }
+  ],
+  "result": {
+    "item": "iansmod:pizzaslice",
+    "count": 8
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "34 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:water_bucket"
+    },
+    "1": {
+      "item": "iansmod:flour"
+    },
+    "2": {
+      "item": "iansmod:bakingsoda"
+    },
+    "3": {
+      "item": "iansmod:salt"
+    },
+    "4": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "iansmod:batter",
+    "count": 1
+  }
+}

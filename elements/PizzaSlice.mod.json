@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "pizza1",
+    "customModelName": "Normal",
+    "name": "Pizza Slice",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 32,
+    "nutritionalValue": 6,
+    "saturation": 0.4,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

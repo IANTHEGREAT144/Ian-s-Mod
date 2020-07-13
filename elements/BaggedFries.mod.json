@@ -1,0 +1,24 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "frie_bag",
+    "customModelName": "Normal",
+    "name": "Bagged Fries",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 32,
+    "nutritionalValue": 7,
+    "saturation": 0.19999999999999998,
+    "eatingSpeed": 30,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "BaggedFriesFoodEaten"
+    }
+  }
+}

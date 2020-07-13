@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Flour"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Flour"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Flour"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Flour"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Shell"
+    },
+    "name": "tcoshll",
+    "namespace": "mod"
+  }
+}

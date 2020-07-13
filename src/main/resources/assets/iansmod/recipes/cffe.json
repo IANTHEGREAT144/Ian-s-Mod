@@ -1,0 +1,17 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iansmod:coffeebean"
+    },
+    {
+      "item": "minecraft:potion",
+      "data": 32767
+    }
+  ],
+  "result": {
+    "item": "iansmod:coffee",
+    "count": 1
+  }
+}

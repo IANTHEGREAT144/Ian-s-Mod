@@ -1,0 +1,24 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "iansmod:cheese"
+    },
+    "1": {
+      "item": "iansmod:cookedgroundbeef"
+    },
+    "2": {
+      "item": "iansmod:shell"
+    }
+  },
+  "result": {
+    "item": "iansmod:taco",
+    "count": 1
+  }
+}

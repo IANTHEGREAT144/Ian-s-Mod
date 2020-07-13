@@ -1,0 +1,23 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 "
+  ],
+  "key": {
+    "0": {
+      "item": "iansmod:flour"
+    },
+    "1": {
+      "item": "minecraft:wheat"
+    },
+    "2": {
+      "item": "iansmod:cheese"
+    }
+  },
+  "result": {
+    "item": "iansmod:bakingsoda",
+    "count": 2
+  }
+}

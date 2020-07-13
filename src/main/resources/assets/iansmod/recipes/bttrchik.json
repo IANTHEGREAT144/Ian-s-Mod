@@ -1,0 +1,16 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "iansmod:batter"
+    }
+  ],
+  "result": {
+    "item": "iansmod:chickenbattered",
+    "count": 1
+  }
+}

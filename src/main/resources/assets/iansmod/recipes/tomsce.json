@@ -1,0 +1,13 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iansmod:tomato"
+    }
+  ],
+  "result": {
+    "item": "iansmod:tomatosause",
+    "count": 2
+  }
+}

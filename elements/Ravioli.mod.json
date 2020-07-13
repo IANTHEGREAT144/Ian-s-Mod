@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "ravioli",
+    "customModelName": "Normal",
+    "name": "Ravioli",
+    "creativeTab": {
+      "value": "FOOD"
+    },
+    "stackSize": 32,
+    "nutritionalValue": 5,
+    "saturation": 0.5,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iansmod:choclatebar"
+    },
+    {
+      "item": "iansmod:coffee"
+    }
+  ],
+  "result": {
+    "item": "iansmod:chocolatecoffee",
+    "count": 1
+  }
+}

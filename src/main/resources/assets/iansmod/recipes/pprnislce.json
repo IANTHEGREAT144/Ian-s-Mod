@@ -1,0 +1,13 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iansmod:pepperoni"
+    }
+  ],
+  "result": {
+    "item": "iansmod:slicedpepperoni",
+    "count": 9
+  }
+}

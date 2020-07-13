@@ -1,0 +1,24 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "iansmod:cheese"
+    },
+    "1": {
+      "item": "iansmod:cookedpatty"
+    },
+    "2": {
+      "item": "iansmod:buns"
+    }
+  },
+  "result": {
+    "item": "iansmod:burger",
+    "count": 1
+  }
+}
