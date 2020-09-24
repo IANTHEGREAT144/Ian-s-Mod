@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Batter"
+      },
+      {
+        "value": "CUSTOM:Batter"
+      },
+      {
+        "value": "CUSTOM:Batter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Batter"
+      },
+      {
+        "value": "CUSTOM:Batter"
+      },
+      {
+        "value": "CUSTOM:Batter"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Pancakes"
+    },
+    "name": "pncks",
+    "namespace": "mod"
+  }
+}

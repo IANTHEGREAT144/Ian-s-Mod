@@ -1,0 +1,28 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Chocolate",
+    "achievementDescription": "Have coaco Beans",
+    "achievementIcon": {
+      "value": "Items.DYE#3"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "CHCBAR",
+      "CCB"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 4,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:TMTCRE"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"53\" y=\"5\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">8</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.DYE#3</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iansmod:salt"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    }
+  ],
+  "result": {
+    "item": "iansmod:mashedpotato",
+    "count": 1
+  }
+}

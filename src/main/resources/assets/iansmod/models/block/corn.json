@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "iansmod:blocks/double_plant_corn",
+    "particle": "iansmod:blocks/double_plant_corn"
+  }
+}

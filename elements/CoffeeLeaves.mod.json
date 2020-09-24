@@ -7,10 +7,10 @@
     "customModelName": "Cross model",
     "plantType": "growapable",
     "growapableSpawnType": "Plains",
-    "growapableMaxHeight": 2,
+    "growapableMaxHeight": 3,
     "name": "Coffee Leaves",
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "No creative tab entry"
     },
     "hardness": 0.0,
     "resistance": 0.0,
@@ -23,10 +23,10 @@
       "value": "CUSTOM:CoffeeBean"
     },
     "dropAmount": 4,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:CoffeeBean"
     },
     "flammability": 0,
     "fireSpreadSpeed": 0,

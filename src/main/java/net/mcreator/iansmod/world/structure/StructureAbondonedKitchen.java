@@ -33,7 +33,7 @@ public class StructureAbondonedKitchen extends ElementsIansMod.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		if ((random.nextInt(1000000) + 1) <= 50) {
+		if ((random.nextInt(1000000) + 1) <= 80) {
 			int count = random.nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = i2 + random.nextInt(16) + 8;
@@ -42,18 +42,15 @@ public class StructureAbondonedKitchen extends ElementsIansMod.ModElement {
 				if (isNetherType) {
 					boolean notpassed = true;
 					while (height > 0) {
-						if (notpassed && (world.isAirBlock(new BlockPos(i, height, k)) || !world.getBlockState(new BlockPos(i, height, k)).getBlock()
-								.getMaterial(world.getBlockState(new BlockPos(i, height, k))).blocksMovement()))
+						if (notpassed && world.isAirBlock(new BlockPos(i, height, k)))
 							notpassed = false;
-						else if (!notpassed && !world.isAirBlock(new BlockPos(i, height, k)) && world.getBlockState(new BlockPos(i, height, k))
-								.getBlock().getMaterial(world.getBlockState(new BlockPos(i, height, k))).blocksMovement())
+						else if (!notpassed && !world.isAirBlock(new BlockPos(i, height, k)))
 							break;
 						height--;
 					}
 				} else {
 					while (height > 0) {
-						if (!world.isAirBlock(new BlockPos(i, height, k)) && world.getBlockState(new BlockPos(i, height, k)).getBlock()
-								.getMaterial(world.getBlockState(new BlockPos(i, height, k))).blocksMovement())
+						if (!world.isAirBlock(new BlockPos(i, height, k)))
 							break;
 						height--;
 					}

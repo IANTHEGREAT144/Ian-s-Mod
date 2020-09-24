@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "iansmod:choclatebar"
+    },
+    "title": {
+      "translate": "advancements.choclatecofefe.title"
+    },
+    "description": {
+      "translate": "advancements.choclatecofefe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "choclatecofefe": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "iansmod:choclatebar"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "iansmod:chccffe"
+    ]
+  },
+  "parent": "minecraft:husbandry/root"
+}

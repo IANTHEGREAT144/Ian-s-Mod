@@ -10,8 +10,8 @@
       "value": "FOOD"
     },
     "stackSize": 64,
-    "nutritionalValue": 3,
-    "saturation": 0.6,
+    "nutritionalValue": 2,
+    "saturation": 0.1,
     "eatingSpeed": 10,
     "forDogs": false,
     "isAlwaysEdible": true,

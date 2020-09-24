@@ -36,7 +36,7 @@ public class ItemPizzaBite extends ElementsIansMod.ModElement {
 	}
 	public static class ItemFoodCustom extends ItemFood {
 		public ItemFoodCustom() {
-			super(3, 0.6f, false);
+			super(2, 0.1f, false);
 			setUnlocalizedName("pizzabite");
 			setRegistryName("pizzabite");
 			setAlwaysEdible();

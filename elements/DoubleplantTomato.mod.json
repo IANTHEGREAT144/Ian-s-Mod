@@ -7,15 +7,15 @@
     "customModelName": "Cross model",
     "plantType": "growapable",
     "growapableSpawnType": "Plains",
-    "growapableMaxHeight": 4,
+    "growapableMaxHeight": 3,
     "name": "Tomato Plant",
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "No creative tab entry"
     },
     "hardness": 0.0,
     "resistance": 0.0,
     "luminance": 0.0,
-    "unbreakable": true,
+    "unbreakable": false,
     "soundOnStep": {
       "value": "PLANT"
     },
@@ -26,7 +26,7 @@
     "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:Tomatoseeds"
     },
     "flammability": 0,
     "fireSpreadSpeed": 0,

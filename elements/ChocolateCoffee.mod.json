@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Chocolate Coffee",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:Starbucks"
     },
     "stackSize": 8,
     "nutritionalValue": 7,

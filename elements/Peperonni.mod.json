@@ -1,0 +1,28 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Pepperoni",
+    "achievementDescription": "Pepperonni",
+    "achievementIcon": {
+      "value": "CUSTOM:Rawsausage"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "SUSGE",
+      "PPRNI"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 3,
+    "achievementType": "goal",
+    "parent": {
+      "value": "adventure/root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"34\" y=\"84\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">20</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.PORKCHOP</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

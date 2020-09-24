@@ -21,13 +21,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockReed;
 import net.minecraft.block.Block;
 
+import net.mcreator.iansmod.item.ItemTomatoseeds;
 import net.mcreator.iansmod.item.ItemTomato;
 import net.mcreator.iansmod.ElementsIansMod;
 
@@ -72,8 +72,8 @@ public class BlockDoubleplantTomato extends ElementsIansMod.ModElement {
 						BlockPos blockpos1 = pos.add(random.nextInt(4) - random.nextInt(4), 0, random.nextInt(4) - random.nextInt(4));
 						if (world.isAirBlock(blockpos1)) {
 							BlockPos blockpos2 = blockpos1.down();
-							int j = 1 + random.nextInt(random.nextInt(4) + 1);
-							j = Math.min(4, j);
+							int j = 1 + random.nextInt(random.nextInt(3) + 1);
+							j = Math.min(3, j);
 							for (int k = 0; k < j; ++k)
 								if (((BlockReed) block).canBlockStay(world, blockpos1))
 									world.setBlockState(blockpos1.up(k), block.getDefaultState(), 2);
@@ -87,13 +87,12 @@ public class BlockDoubleplantTomato extends ElementsIansMod.ModElement {
 	public static class BlockCustomFlower extends BlockReed {
 		public BlockCustomFlower() {
 			setSoundType(SoundType.PLANT);
-			setCreativeTab(CreativeTabs.DECORATIONS);
+			setCreativeTab(null);
 			setHardness(0F);
 			setResistance(0F);
 			setLightLevel(0F);
 			setUnlocalizedName("doubleplanttomato");
 			setRegistryName("doubleplanttomato");
-			setBlockUnbreakable();
 		}
 
 		@Override
@@ -108,7 +107,7 @@ public class BlockDoubleplantTomato extends ElementsIansMod.ModElement {
 
 		@Override
 		public ItemStack getPickBlock(IBlockState state, RayTraceResult target, World world, BlockPos pos, EntityPlayer player) {
-			return new ItemStack(Item.getItemFromBlock(this), 1, this.damageDropped(state));
+			return new ItemStack(ItemTomatoseeds.block, (int) (1));
 		}
 
 		@Override
@@ -133,7 +132,7 @@ public class BlockDoubleplantTomato extends ElementsIansMod.ModElement {
 				if (world.isAirBlock(pos.up())) {
 					int l;
 					for (l = 1; world.getBlockState(pos.down(l)).getBlock() == this; ++l);
-					if (l < 4) {
+					if (l < 3) {
 						int i1 = (Integer) state.getValue(AGE);
 						if (i1 == 15) {
 							world.setBlockState(pos.up(), this.getDefaultState());

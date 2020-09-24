@@ -1,0 +1,30 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "iansmod:batter"
+    },
+    "3": {
+      "item": "iansmod:batter"
+    },
+    "4": {
+      "item": "iansmod:batter"
+    },
+    "5": {
+      "item": "iansmod:batter"
+    },
+    "7": {
+      "item": "iansmod:batter"
+    }
+  },
+  "result": {
+    "item": "iansmod:waffle",
+    "count": 1
+  }
+}

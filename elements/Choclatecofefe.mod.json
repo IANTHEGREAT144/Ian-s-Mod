@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Candy Incarnate",
+    "achievementDescription": "Craft at least one chocolate bar",
+    "achievementIcon": {
+      "value": "CUSTOM:ChoclateBar"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "CHCCFFE"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "task",
+    "parent": {
+      "value": "husbandry/root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"50\" y=\"36\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:ChoclateBar</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

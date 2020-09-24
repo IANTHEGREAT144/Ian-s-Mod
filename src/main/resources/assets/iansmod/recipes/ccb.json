@@ -1,0 +1,14 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+      "data": 3
+    }
+  ],
+  "result": {
+    "item": "iansmod:cbutter",
+    "count": 3
+  }
+}

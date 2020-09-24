@@ -4,8 +4,8 @@
   "definition": {
     "structure": "abandoned_resturant",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 50,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 80,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

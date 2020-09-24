@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "iansmod:rawsausage"
+    },
+    "title": {
+      "translate": "advancements.peperonni.title"
+    },
+    "description": {
+      "translate": "advancements.peperonni.descr"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "peperonni": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:porkchop",
+            "count": {
+              "min": 1,
+              "max": 20
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3,
+    "recipes": [
+      "iansmod:susge",
+      "iansmod:pprni"
+    ]
+  },
+  "parent": "minecraft:adventure/root"
+}

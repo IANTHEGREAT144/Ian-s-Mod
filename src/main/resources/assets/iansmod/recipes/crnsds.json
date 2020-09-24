@@ -1,0 +1,13 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "iansmod:cornfood"
+    }
+  ],
+  "result": {
+    "item": "iansmod:cornseeds",
+    "count": 3
+  }
+}

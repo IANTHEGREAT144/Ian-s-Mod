@@ -13,10 +13,10 @@ import net.minecraft.item.ItemFood;
 import net.minecraft.item.Item;
 import net.minecraft.item.EnumAction;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
 import net.mcreator.iansmod.procedure.ProcedureCoffeeFoodEaten;
+import net.mcreator.iansmod.creativetab.TabStarbucks;
 import net.mcreator.iansmod.ElementsIansMod;
 
 @ElementsIansMod.ModElement.Tag
@@ -42,7 +42,7 @@ public class ItemCoffee extends ElementsIansMod.ModElement {
 			super(5, 0.6f, false);
 			setUnlocalizedName("coffee");
 			setRegistryName("coffee");
-			setCreativeTab(CreativeTabs.FOOD);
+			setCreativeTab(TabStarbucks.tab);
 			setMaxStackSize(8);
 		}
 

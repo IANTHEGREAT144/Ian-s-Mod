@@ -1,0 +1,33 @@
+{
+  "group": "iansmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "   ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "iansmod:batter"
+    },
+    "1": {
+      "item": "iansmod:batter"
+    },
+    "2": {
+      "item": "iansmod:batter"
+    },
+    "6": {
+      "item": "iansmod:batter"
+    },
+    "7": {
+      "item": "iansmod:batter"
+    },
+    "8": {
+      "item": "iansmod:batter"
+    }
+  },
+  "result": {
+    "item": "iansmod:pancakes",
+    "count": 1
+  }
+}

@@ -3,7 +3,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "iansmod:tomato"
+      "item": "iansmod:tomatoseeds"
+    },
+    {
+      "item": "iansmod:tomatoseeds"
+    },
+    {
+      "item": "iansmod:tomatoseeds"
     }
   ],
   "result": {

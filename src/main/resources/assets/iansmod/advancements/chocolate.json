@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dye",
+      "data": 3
+    },
+    "title": {
+      "translate": "advancements.chocolate.title"
+    },
+    "description": {
+      "translate": "advancements.chocolate.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "chocolate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dye#3",
+            "count": {
+              "min": 1,
+              "max": 8
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4,
+    "recipes": [
+      "iansmod:chcbar",
+      "iansmod:ccb"
+    ]
+  },
+  "parent": "iansmod:tmtcre"
+}
